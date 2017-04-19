@@ -1,0 +1,53 @@
+.contenedor{
+	margin-left: 40%;
+}
+.caja1{
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+}
+
+.caja2{
+	width: 125px;
+	height: 125px;
+}
+
+.caja3{
+	width: 40px;
+	height: 40px;
+}
+.abuelo{
+	background-color: red;
+	position:relative;
+}
+
+.padre{
+	background-color: purple;
+	position:absolute;
+	top: 40px;
+	left: 40px;
+}
+
+.hijo{
+	background-color: yellow;
+	position: absolute;
+}
+
+.abuela{
+	background-color: blue;
+	position:relative;
+}
+
+.madre{
+	background-color: green;
+	position: absolute;
+	top: 40px;
+	left: 40px;
+}
+
+.hija{
+	background-color: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
